@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -63,6 +68,7 @@ fieldset {
     margin: 0;
 }
 
+
 /* TYPOGRAPHY */
 html {
     font-size: 1px;
@@ -117,62 +123,8 @@ header {
     color: navy;
 }
 
-/* HERO IMAGE v1 */
-/* .banner-area {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/steve-pancrate-tVkk8MbcJCg-unsplash.jpg);
-    background-size: cover;
-}
 
-.content-area {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content {
-    text-align: center;
-}
-
-.content h1 {
-    font-size: 96px;
-    color: #fff;
-    letter-spacing: 0.025em;
-}
-
-.content p {
-    font-size: 25px;
-    color: #ededed;
-}
-
-.content .btn {
-    border: none;
-    outline: none;
-    padding: 15px;
-    margin-top: 35px;
-    font-size: 18px;
-} */
-
-/* button {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-} */
-
-/* button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-} */
-
-.fa-brands {
-    color: black;
-}
-
-/* HERO IMAGE v2 */
+/* HERO IMAGE */
 .container {
     width: 100%;
     height: 100vh;
@@ -180,8 +132,9 @@ header {
     background-size: cover;
     background-position: center;
     padding: 0 80px;
-    /* position: relative; */
+    position: relative;
     font-family: 'Poppins', sans-serif;
+    /* border: 2px solid red;     */
 }
 
 nav {
@@ -266,7 +219,7 @@ nav ul li a:hover::after {
     font-weight: 500;
 }
 
-.text-box .row {
+.text-box .text-row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -309,7 +262,7 @@ nav ul li a:hover::after {
 
 
 
-/* PRICING TABLE v2 */
+/* PRICING TABLE */
 .pricing-plan {
     width: 300px;
     border-radius: 25px;
@@ -441,4 +394,88 @@ nav ul li a:hover::after {
     margin: auto;
     display: block;
     width: 70%;
+}
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background: whitesmoke;
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
+
+.foot-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.foot-container > div h4 {
+    margin-bottom: 1.2rem;
+}
+
+.foot-1 p {
+    margin: 1rem 0 2rem;
+}
+
+footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.pay-icons {
+    width: auto;
+    height: 25px;
+    padding: 2px 2px;
+}
+
+.foot-socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.foot-copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid darkblue;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    /* NAV BAR */
+    /* nav button {
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        color: hotpink;
+        cursor: pointer;
+    } */
 }
