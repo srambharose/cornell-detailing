@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Cornell Detailing</title>
+    <title>Services | Cornell Detailing</title>
     <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/7b2fd73f0a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container">    
         <header>
             <a href="https://www.cornelldetailing.com">
                 <div class="company-name">Cornell Detailing</div>
@@ -34,20 +35,80 @@
                 </a>
                 <a class="book-now-button"
                     href="https://squareup.com/appointments/book/sk07rf8449tguc/LKN2JNMRH5PP/services">Book Now</a>
-            </div>
+            </div>                     
         </header>
 
-        <h1 class="hero-heading">Exceptional detail.</h1>
-        <h1 class="hero-heading-break">Extraordinary service.</h1>
-        <div class="hero-image">
-            <img src="/images/tesla.jpg" alt="Close-up view of Tesla's headlights">
-        </div>
-
+        <main>
+            <section id="services">
+                <h1>Services</h1>
+                <table>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>The Inside</td>
+                        <td>
+                            <ul>
+                                <li>Vacuum interior, trunk & mats</li>
+                                <li>Clean dash, console, door panels, trim, pedals, sun visors, windows & glass</li>
+                                <li>Spot treat headliner & carpet (stains)</li>
+                                <li>Meguiar's Leather Conditioning (if applicable)</li>
+                                <li>Sanitize touch points (steering wheel, shifter, door handles)</li>
+                                <li>Steam clean cabin</li>
+                            </ul>
+                        </td>
+                        <td>
+                            $130 for Coupe, Sedan, Hatchback, Crossover or 5-seat SUV<br>
+                            $180 for 7-seat SUV, Pickup Truck, or Minivan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The Outside</td>
+                        <td>
+                            <ul>
+                                <li>Eco-friendly hand wash</li>
+                                <li>Clean rims, tires & apply tire shine</li>
+                                <li>Clean all door/trunk jambs</li>
+                                <li>Meguiar's Ceramic Spray Wax (up to 6 months of protection)</li>
+                                <li>Clean gas cap area</li>
+                                <li>Clean roof racks, convertible top or cross bars (if applicable)</li>
+                            </ul>
+                        </td>
+                        <td>
+                            $80 for Coupe, Sedan, Hatchback, Crossover or 5-seat SUV<br>
+                            $130 for 7-seat SUV, Pickup Truck, or Minivan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The Inside-Out</td>
+                        <td>
+                            <ul>
+                                <li>Everything included with The Inside package</li>
+                                <li>Everything included with The Outside package</li>
+                            </ul>
+                        </td>
+                        <td>
+                            $175 for Coupe, Sedan, Hatchback, Crossover or 5-seat SUV<br>
+                            $275 for 7-seat SUV, Pickup Truck, or Minivan
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <p><span class="upcharge-text">Excessive dirt,
+                    pet hair and/or tree sap is subject to a minimum $50 upcharge</span></p>
+            <a class="book-now-button" href="https://squareup.com/appointments/book/sk07rf8449tguc/LKN2JNMRH5PP3/services">Book
+                Now</a>
+        </main>
+        
         <footer>
             <div class="footer-row">
                 <div class="centered-row">
                     <div class="footer-column">
-                        <p class="company-name">Cornell Detailing</p>
+                        <a href="https://www.cornelldetailing.com">
+                            <p class="company-name">Cornell Detailing</p>
+                        </a>
                         <p class="slogan">We detail. You admire.</p>
                     </div>
                 </div>
@@ -78,10 +139,8 @@
                     </div>
                     <div class="footer-column">
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/cornelldetailing"><i class="fab fa-facebook-square"></i>
-                                Facebook</a>
-                            <a href="https://www.instagram.com/cornelldetailing"><i class="fab fa-instagram"></i>
-                                Instagram</a>
+                            <a href="https://www.facebook.com/cornelldetailing"><i class="fab fa-facebook-square"></i> Facebook</a>
+                            <a href="https://www.instagram.com/cornelldetailing"><i class="fab fa-instagram"></i> Instagram</a>
                             <a href="https://wa.me/message/QYVUUDCTULN2M1"><i class="fab fa-whatsapp"></i> Whatsapp</a>
                         </div>
                     </div>
@@ -94,9 +153,5 @@
             </div>
         </footer>
     </div>
-    </div>
-
-    <script src="./js/script.js" defer></script>
 </body>
-
 </html>
