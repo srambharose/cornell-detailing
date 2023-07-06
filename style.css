@@ -140,28 +140,9 @@ p .upcharge-text {
 }
 
 /* About */
-.about-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 /* Cancellation Policy */
-.policy-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.policy-container ol {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.policy-container ol li {
-    margin-bottom: 10px;
-}
-
 .policy-container p {
     font-size: 1em;
     font-style: italic;
