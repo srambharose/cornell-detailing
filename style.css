@@ -168,6 +168,69 @@ h1.hero-heading-break {
     color: #888888;
 }
 
+/* Homepage Features Benefits 2 & 3 */
+.features-section2,
+.features-section3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.features-section2 .content,
+.features-section3 .content {
+    display: flex;
+    align-items: center;
+}
+
+.features-section2 .image,
+.features-section3 .image {
+    width: 544px;
+    height: 617px;
+}
+
+.features-section2 .image img,
+.features-section3 .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features-section2 .text,
+.features-section3 .text {
+    flex-basis: calc(100% - 544px);
+    padding: 0 20px;
+}
+
+.features-section2 h2,
+.features-section3 h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.features-section2 p,
+.features-section3 p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1E88E5;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.cta-button:hover {
+    background-color: #FFC107;
+    color: #333333;
+}
+
 /* Services */
 p .upcharge-text {
     font-size: 0.75em;
