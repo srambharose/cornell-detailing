@@ -14,9 +14,7 @@ body {
 }
 
 p {
-    font-size: 1.5em;
     letter-spacing: 2%;
-    /* line-height: 1.5; */
 }
 
 a {
@@ -43,10 +41,15 @@ header {
     align-items: center;
 }
 
-.company-name {
+/* .company-name {
     font-size: 1.8rem;
     font-weight: 500;
     margin: 0;
+} */
+
+.logo img {
+    width: 150px;
+    height: auto;
 }
 
 nav ul {
@@ -351,7 +354,7 @@ h1.hero-heading-break {
 
 /* Services */
 p .upcharge-text {
-    font-size: 0.75em;
+    font-size: 1em;
     font-style: italic;
     color: #888;
 }
@@ -421,20 +424,13 @@ p .upcharge-text {
 }
 
 div.footer-column p.company-name {
-    font-size: 1.8em;
+    font-size: 2.125em;
+    font-weight: 500;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.slogan {
-    font-size: 20px;
-    font-style: italic;
-    font-family: 'Roboto', sans-serif;
 }
 
 .footer-heading {
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
 }
 
 .footer-column ul {
@@ -455,8 +451,14 @@ div.footer-column p.company-name {
 .footer-column p,
 .footer-column ul li a {
     color: #333333;
-    font-size: 16px;
+    font-size: 1em;
     margin: 0;
+}
+
+p.slogan {
+    font-size: 1.25em;
+    font-style: italic;
+    margin-top: -10px;
 }
 
 .social-icons {
